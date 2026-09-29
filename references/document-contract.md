@@ -16,7 +16,7 @@
 
 ## OpenSpec 接入与导航
 
-先在目标项目运行官方 `openspec init`，选择实际使用的 AI 工具，再生成文档地图并检查链接。默认路径按[OpenSpec 入门文档](https://github.com/Fission-AI/OpenSpec/blob/main/docs/getting-started.md)：
+先在目标项目运行官方 `openspec init --tools none`，只生成 OpenSpec 项目目录，不安装项目内的 AI 工具 skills 或命令文件，再生成文档地图并检查链接。默认路径按[OpenSpec 入门文档](https://github.com/Fission-AI/OpenSpec/blob/main/docs/getting-started.md)：
 
 | 内容 | 默认位置 |
 | --- | --- |
